@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+</head>
+<body>
+    <!-- Nav-Bar / barra de navegacion / parte superior de la pagina -->
+    <div class="nav"> 
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sing Out</button></li>
+        </ul>
+    </div>
+    <!--  bajo nav-bar / cuerpo de la pagina / parte central -->
+    <div class="body_center">
+        <!-- Contenedor de la Izquierda -->
+        <div class="container_left">
+            <!-- Contenedor Superior Izquierdo -->
+            <div class="container1">
+                <div class="barra"></div>
+                <img class="user_photo" src="images/foto_perfil.jpg" alt="usuario">
+                <h1>Christian Vargas</h1>
+                <div id="direccion">
+                    <img class="map_marker" src="icons/map-marker.png" alt="punto en mapa">
+                    <p>Viña del mar</p>
+                </div>
+                <div id="info">
+                    <p>Developer | Engineer | Problem Solver<br>
+                    Master of shadows and the Internet!</p>
+                </div>
+                <div id="gear">
+                    <img class="gear" src="icons/gear.png" alt="gear">
+                    <a class="gear_text" href="#">edit profile</a>
+                </div>
+            </div>
+            <!-- Contenedor Inferior Izquierdo -->
+            <div class="cantainer2">
+                <p class="titulo">Education<p>
+                <p class="nom_curso">Coding Dojo - Full Stack Bootcamp</p>
+                <p class="fecha_curso">Sep 2023 - Oct 2023</p>
+                <p class="descripcion_curso">Triple black belt in Pyton, MERN, and C#</p>
+            </div>
+        </div>
+        <!-- Contenedor de la Derecha -->
+        <div class="container_right">
+            <!-- Contenedor Superior Derecha -->
+            <div class="container_solicitudes">
+                <!-- Barra Titulo con numero de solicitudes -->
+                <div class="titulo_solicitudes">
+                    <p class="num_solicitudes">2</p>
+                    <p class="text_requests">Conecction Requests</p>
+                </div>
+                <!-- Contenedor de solicitudes de coneccion -->
+                <div class="solicitud_usuario">
+                    <!-- Datos de quien solicita  -->
+                    <div class="mini_perfil">
+                        <img class="foto_solicitud" src="images/adrien-s.jpg" alt="img perfil adrien">
+                        <a class="nombre_perfil" href="#">Adrien S</a>
+                    </div>
+                    <!-- Aceptar o Rechazar solicitud -->
+                    <div class="accept_close">
+                        <img class="icon" src="icons/accept-circle.png" alt="accept">
+                        <img class="icon" src="icons/close-circle.png" alt="close">
+                    </div>
+                </div>
+                <div class="solicitud_usuario">
+                    <!-- Datos de quien solicita  -->
+                    <div class="mini_perfil">
+                        <img class="foto_solicitud" src="images/alayne-s.jpg" alt="img perfil alayne">
+                        <a class="nombre_perfil" href="#">Alayne S</a>
+                    </div>
+                    <!-- Aceptar o Rechazar solicitud -->
+                    <div class="accept_close">
+                        <img class="icon" src="icons/accept-circle.png" alt="accept">
+                        <img class="icon" src="icons/close-circle.png" alt="close">
+                    </div>
+                </div>
+            </div>
+            <!-- Contenedor Inferior Derecha -->
+            <div class="container_solicitudes">
+                <!-- Barra Titulo con numero de conecciones existentes -->
+                <div class="titulo_solicitudes">
+                    <p class="num_solicitudes">+12</p>
+                    <p class="text_requests">Your Conecction</p>
+                </div>
+                <!-- Usuarios aceptados / parte central de div -->
+                <div class="usuario_aceptados">
+                    <!-- Nombre y fotos de coneccion aceptada -->
+                    <div class="mini_perfil">
+                        <img class="foto_solicitud" src="images/anne-s.jpg" alt="img perfil anne">
+                        <a class="nombre_perfil" href="#">Anne S</a>
+                    </div>
+                    <!-- Nombre y fotos de coneccion aceptada -->
+                    <div class="mini_perfil">
+                        <img class="foto_solicitud" src="images/arry-s.jpg" alt="img perfil arry">
+                        <a class="nombre_perfil" href="#">Arry S</a>
+                    </div>
+                    <!-- Nombre y fotos de coneccion aceptada -->
+                    <div class="mini_perfil">
+                        <img class="foto_solicitud" src="images/jane-m.jpg" alt="img perfil jane">
+                        <a class="nombre_perfil" href="#">Jane M</a>
+                    </div>
+                    <!-- Nombre y fotos de coneccion aceptada -->
+                    <div class="mini_perfil">
+                        <img class="foto_solicitud" src="images/phil-s.jpg" alt="img perfil phil">
+                        <a class="nombre_perfil" href="#">Phil S</a>
+                    </div>
+                    <!-- Nombre y fotos de coneccion aceptada -->
+                    <div class="mini_perfil">
+                        <img class="foto_solicitud" src="images/todd-s.jpg" alt="img perfil todd">
+                        <a class="nombre_perfil" href="#">Todd S</a>
+                    </div>
+                </div>
+                <!-- parte inferior de div / boton ver más -->
+                <div class="view_more">
+                    <a class="gear_text" id="view_more" href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
